@@ -1,0 +1,50 @@
+<div class="container form-control mb-5 mt-5 p-4">
+    <h2 class="text-center mb-5 text-success">Add New Product Details</h2>
+    <form class="row g-3 " >
+        <!--
+            [formGroup]="addProductForm"  
+            (ngSubmit)="addProduct()"
+        -->
+        <div class="col-md-6">
+          <label for="validationserver01" class="form-label">Product id</label>
+          <input type="email" name="id" formControlName="id" class="form-control" id="validationserver01" required>
+        </div>
+    
+        <div class="col-md-6">
+            <label for="validationserver02" class="form-label">Product Name</label>
+            <input type="email" name="productname" formControlName="productName" class="form-control" id="validationserver02" required>
+          </div>
+    
+          <div class="col-md-6">
+            <label for="validationserver03" class="form-label">Product Description</label>
+            <input type="email" name="description" formControlName="description" class="form-control" id="validationserver03" required>
+          </div>
+    
+          <div class="col-md-6">
+            <label for="validationserver05" class="form-label">product Price</label>
+            <input type="email" name="price" formControlName="price" class="form-control" id="validationserver05" required>
+          </div>
+    
+          <div class="col-md-6">
+            <label for="validationserver09" class="form-label">Product Category id</label>
+            <input type="email" name="category_id" formControlName="categoryId" class="form-control" id="validationserver09" required>
+          </div>
+    
+          <div class="col-md-6">
+            <label for="validationserver10" class="form-label">Product Availaility</label>
+            <input type="email" name="availaility" formControlName="is_available" placeholder="Yes / No" class="form-control" id="validationserver10" required>
+          </div>
+          
+        <div class="col-12">
+          <label for="product_img" class="form-label">Product img</label>
+          <input type="text" name="product_img" formControlName="productImg" class="form-control" id="Product_img" placeholder="file type name">
+        </div>
+        
+        <div class="col-12">
+          <button type="submit" class="btn btn-success">Submit</button>
+        </div>
+      </form>
+    </div>
+
+
+
