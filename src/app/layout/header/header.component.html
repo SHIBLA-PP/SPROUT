@@ -18,20 +18,20 @@
                
                 <li class="nav-item">
                     <div class="form-group">
-                        <input  type="text" style="width:500px ;" class="form-control" placeholder="Search for products">
+                        <input (keyup)="search($event)"  type="text" style="width:500px ;" class="form-control" placeholder="Search for products">
                     <!-- (keyup)="search($event)" -->
                     </div>
                 </li>
                 &nbsp;&nbsp;
                 <li class="nav-item">
-                    <a class="nav-link active " aria-current="page" href="">Add product</a>
+                    <a class="nav-link active " aria-current="page" href=""></a>
                 </li>
-                &nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <!-- <li>
                     <input class="btn btn-dark" type="button" value="Log In">
                 </li> -->
                 <li>
-                    <a href="">
+                    <a href="products/login">
                         <input class="btn btn-outline-success" type="button" value="Log In">
                     </a>
                 </li>

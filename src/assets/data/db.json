@@ -1,96 +1,112 @@
 {
-    "sprout": [
-
-      { 
+  "sprout": [
+    {
+      "id": 0,
+      "productName": "Sapota",
+      "categoryId": "2",
+      "description": "brown colour , very sweet taste like honey , good for health",
+      "price": "400",
+      "is_available": "yes",
+      "productImg": "https://i.postimg.cc/W4PMSWxH/SAPOTA.jpg"
+    },
+    {
       "id": 1,
-      "productName": "Shirt",
+      "productName": "Jasmine",
       "categoryId": "1",
-      "description": "Latest Men's Half Sleeves Shirt , Black colour , ",
+      "description": "White colour flower with pleasent smell",
       "price": "500",
       "is_available": "yes",
-      "productImg": "https://i.postimg.cc/MGMWkJyY/shirt1.jpg"
-      },
-      { 
+      "productImg": "https://i.postimg.cc/mkrVJzmy/p1.jpg"
+    },
+    {
       "id": 2,
-      "productName": "Shirt",
+      "productName": "Rose",
       "categoryId": "1",
-      "description": "Latest Men's Half Sleeves Shirt , Black colour , ",
-      "price": "500",
+      "description": "Pink colour flower with pleasent smell ",
+      "price": "330",
       "is_available": "yes",
-      "productImg": "https://i.postimg.cc/MGMWkJyY/shirt1.jpg"
-      },
-      { 
+      "productImg": "https://i.postimg.cc/pdqF7043/p3.jpg"
+    },
+    {
       "id": 3,
-      "productName": "Shirt",
+      "productName": "Lily",
       "categoryId": "1",
-      "description": "Latest Men's Half Sleeves Shirt , Black colour , ",
+      "description": "White colour flower with pleasent smell",
       "price": "500",
       "is_available": "yes",
-      "productImg": "https://i.postimg.cc/MGMWkJyY/shirt1.jpg"
-      },
-      { 
+      "productImg": "https://i.postimg.cc/GhxGGhzc/p4.jpg"
+    },
+    {
       "id": 4,
-      "productName": "Shirt",
+      "productName": "Lily",
       "categoryId": "1",
-      "description": "Latest Men's Half Sleeves Shirt , Black colour , ",
+      "description": "Orange colour flower with pleasent smell ",
       "price": "500",
       "is_available": "yes",
-      "productImg": "https://i.postimg.cc/MGMWkJyY/shirt1.jpg"
-      },
-      { 
+      "productImg": "https://i.postimg.cc/0QyBRBQS/p5.jpg"
+    },
+    {
       "id": 5,
-      "productName": "Shirt",
+      "productName": "Hibiscus",
       "categoryId": "1",
-      "description": "Latest Men's Half Sleeves Shirt , Black colour , ",
+      "description": "Red colour flower with pleasent smell ",
       "price": "500",
       "is_available": "yes",
-      "productImg": "https://i.postimg.cc/MGMWkJyY/shirt1.jpg"
-      },
-      { 
-      "id": 6,
-      "productName": "Shirt",
-      "categoryId": "1",
-      "description": "Latest Men's Half Sleeves Shirt , Black colour , ",
-      "price": "500",
-      "is_available": "yes",
-      "productImg": "https://i.postimg.cc/MGMWkJyY/shirt1.jpg"
-      },
-      { 
+      "productImg": "https://i.postimg.cc/vHTxgL1v/p8.jpg"
+    },
+    {
       "id": 7,
-      "productName": "Shirt",
+      "productName": "Hibiscus",
       "categoryId": "1",
-      "description": "Latest Men's Half Sleeves Shirt , Black colour , ",
+      "description": "Pink colour flower with pleasent smell ",
       "price": "500",
       "is_available": "yes",
-      "productImg": "https://i.postimg.cc/MGMWkJyY/shirt1.jpg"
-      },
-      { 
+      "productImg": "https://i.postimg.cc/141zj6H8/p9.jpg"
+    },
+    {
       "id": 8,
-      "productName": "Shirt",
-      "categoryId": "1",
-      "description": "Latest Men's Half Sleeves Shirt , Black colour , ",
+      "productName": "Mango Tree",
+      "categoryId": "2",
+      "description": "Normal Mango tree , Good taste",
       "price": "500",
       "is_available": "yes",
-      "productImg": "https://i.postimg.cc/MGMWkJyY/shirt1.jpg"
-      },
-      { 
+      "productImg": "https://i.postimg.cc/D0P0J6L7/t1.jpg"
+    },
+    {
       "id": 9,
-      "productName": "Shirt",
-      "categoryId": "1",
-      "description": "Latest Men's Half Sleeves Shirt , Black colour , ",
+      "productName": "Orange Tree",
+      "categoryId": "2",
+      "description": "Normal Orange tree , Good taste",
       "price": "500",
       "is_available": "yes",
-      "productImg": "https://i.postimg.cc/MGMWkJyY/shirt1.jpg"
-      },
-      { 
+      "productImg": "https://i.postimg.cc/CKnKHSkP/t2.jpg"
+    },
+    {
       "id": 10,
-      "productName": "Shirt",
-      "categoryId": "1",
-      "description": "Latest Men's Half Sleeves Shirt , Black colour , ",
+      "productName": "Apple",
+      "categoryId": "2",
+      "description": "Normal Apple tree , Good taste",
       "price": "500",
       "is_available": "yes",
-      "productImg": "https://i.postimg.cc/MGMWkJyY/shirt1.jpg"
-      }
-      
-    ]
+      "productImg": "https://i.postimg.cc/RhZ5dL2S/t3.jpg"
+    },
+    {
+      "id": "12",
+      "productName": "Red Apple",
+      "categoryId": "2",
+      "description": "Red apple",
+      "price": "120",
+      "is_available": "yes",
+      "productImg": "https://i.postimg.cc/66S9bZFj/download.jpg"
+    },
+    {
+      "id": "13",
+      "productName": "Grape",
+      "categoryId": "3",
+      "description": "Green color with sweet , Rounded shaped",
+      "price": "400",
+      "is_available": "yes",
+      "productImg": "https://i.postimg.cc/Pxd1p9d7/green-grape.jpg"
+    }
+  ]
 }

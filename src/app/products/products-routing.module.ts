@@ -6,6 +6,7 @@ import { AdminViewAllProductsComponent } from '../admin/admin-view-all-products/
 import { AdminViewComponentComponent } from '../admin/admin-view-component/admin-view-component.component';
 import { DeleteProductComponent } from '../admin/delete-product/delete-product.component';
 import { UpdateProductComponent } from '../admin/update-product/update-product.component';
+import { LoginComponent } from '../login/login/login.component';
 
 import { ViewAllProductsComponent } from './view-all-products/view-all-products.component';
 import { ViewProductComponent } from './view-product/view-product.component';
@@ -18,7 +19,8 @@ const routes: Routes = [
   { path: 'delete-product/:id' , component:DeleteProductComponent },
   { path:'admin-dashboard' , component: AdminDashboardComponent },
   { path:'admin-view-product/:id' , component: AdminViewComponentComponent },
-  { path: 'admin-view-all-product' , component:AdminViewAllProductsComponent }
+  { path: 'admin-view-all-product' , component:AdminViewAllProductsComponent },
+  { path: 'login' , component:LoginComponent }
 
 ];
 

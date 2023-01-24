@@ -6,6 +6,9 @@ import { DeleteProductComponent } from './delete-product/delete-product.componen
 import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
 import { AdminViewComponentComponent } from './admin-view-component/admin-view-component.component';
 import { AdminViewAllProductsComponent } from './admin-view-all-products/admin-view-all-products.component';
+import { ProductsRoutingModule } from '../products/products-routing.module';
+import { ProductsModule } from '../products/products.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -19,7 +22,10 @@ import { AdminViewAllProductsComponent } from './admin-view-all-products/admin-v
     AdminViewAllProductsComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ProductsRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   exports:[
     AddProductComponent,

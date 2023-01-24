@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SproutService } from 'src/app/products/sprout.service';
 
 @Component({
   selector: 'app-admin-view-all-products',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdminViewAllProductsComponent implements OnInit {
 
-  constructor() { }
+  productlist:any
+
+  constructor(private service:SproutService) { }
 
   ngOnInit(): void {
+    this.service.viewallprdctadmin().subscribe((data)=>{
+     this.productlist=data
+    })
   }
 
 }

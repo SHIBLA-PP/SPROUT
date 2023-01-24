@@ -1,1 +1,31 @@
-<p>login works!</p>
+
+<div class="row">
+    <div class="col-4 "></div>
+
+    <div class="col-4">
+        
+        <form>
+            <!--(ngSubmit)="Login()"-->
+            <div class="container mt-5 mb-5">
+                <div class="form-control">
+                    <div class="text-center text-primary mt-3">
+                        <h1><b>LogIn</b></h1>
+                    </div>
+                    <div>
+                        <input (change)="uchange($event)" class="form-control mb-4 mt-5" type="text" name="uname" id="uname" placeholder="Username">
+                    </div>
+                    <div>
+                        <input (change)="pswdchange($event)" class="form-control mb-5 mt-4" type="password" name="pswd" id="pswd" placeholder="Password">
+                    </div>
+                    <div class=" text-center mb-5">
+                        <input (click)="login()" class="btn btn-primary" name="lg" type="submit" value="   LogIn   ">
+                    </div>
+                </div>
+            </div>
+        </form>
+    
+    </div>
+
+    <div class="col-4"></div>
+
+</div>

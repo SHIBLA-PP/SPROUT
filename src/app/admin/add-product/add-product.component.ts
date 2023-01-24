@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder } from '@angular/forms';
+import { Router } from '@angular/router';
+import { SproutService } from 'src/app/products/sprout.service';
 
 @Component({
   selector: 'app-add-product',
@@ -7,9 +10,39 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AddProductComponent implements OnInit {
 
-  constructor() { }
+  addProductForm = this.formBuilder.group({
 
-  ngOnInit(): void {
+      id:[''],
+      productName:[''],
+      categoryId:[''],
+      description: [''],
+      price:[''],
+      is_available:[''], 
+      productImg:['']
+
+  })
+
+  constructor(private formBuilder:FormBuilder,private service:SproutService,private route:Router) { }
+
+  ngOnInit(): void { }
+  
+  addnewproduct()
+  {
+    var newproduct={
+      id:this.addProductForm.value.id,
+      productName:this.addProductForm.value.productName,
+      categoryId:this.addProductForm.value.categoryId,
+      description:this.addProductForm.value.description,
+      price:this.addProductForm.value.price,
+      is_available:this.addProductForm.value.is_available,
+      productImg:this.addProductForm.value.productImg
+    }
+    this.service.addnewproduct(newproduct).subscribe((data)=>{
+      {
+        alert('Product added successfully')
+        this.route.navigateByUrl('admin/admin-view-all-product')
+      }
+    })
   }
 
 }
